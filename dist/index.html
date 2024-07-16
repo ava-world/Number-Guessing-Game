@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="scripts/game.js" defer></script>
+</head>
+<body>
+    <h1>Guess the Number Game</h1>
+    <div>
+        <input type="number" id="guessInput" placeholder="Enter your guess" min="0" max="255">
+        <button onclick="submitGuess()">Submit Guess</button>
+    </div>
+    <div id="result">Loading result...</div>
+    <br>
+    <img src="./game.jpg" alt="Game Image" id="image">
+</body>
+</html>
